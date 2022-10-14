@@ -1,11 +1,6 @@
 # Introduction
 Force input oriented control methods
 
-# Explicit control
-## PD control
-Hybrid force-position control
-Usage: fixed position in one axis and *constant* force control in another axis
-Example: Polishing
 _____________________________
 # Implicit control
 
@@ -53,6 +48,4 @@ Receive biometric signal from human as interactive force
 Limitation: lower accuracy
 Usage: Prothetic arm robot
 
-
-_____________________________
-#Admittance 
+#Impedance #robot_force_control
