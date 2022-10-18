@@ -1,21 +1,26 @@
 # Introduction
-Force input oriented control methods
+ **Impedance control**
+	 The "zero gravity mode" where the end effector behaves like a free-floating rigid body.
 
 _____________________________
 # Implicit control
 
 Force- torque control with input of external force and retain position through calculation of Hooke's Law.
+$F_{sensed} = F_{ext} + F_{gravity} + F_{inertial}=F_{ext}+mgsin({\theta})+[k(θ-θ_0 )+c ({\theta}'(t))│_{θ=θ_0}]$
++ $k$ = spring coefficient (stiffness)
++ $c$= damping coefficient
++ $F_{ext}$=  force applied
 
-$F_{compansated}-F_{ext}=[k(θ-θ_0 )+c ({\theta}'(t))│_{θ=θ_0}]$
 
-$k$ = spring coefficient (stiffness)
-$c$= damping coefficient
-$F_{ext}$= measured force
+No load: $F_{sensed}=0+F_{gc}+0$
+No motion with external force: $F_{sensed}=F_{ext}+F_{gravity}+0$
+Moving: $F_{sensed} = 0 + F_{gravity} + F_{inertial}$
+
 
 ![Robotics 2 - Impedance Control](https://youtu.be/IolG5V_skv8?t=1193)
 
-
-### Joint current sensor
+# Feedback approach
+### Joint Current sensor
 
 Current estimation of joints
 Limitation: hard to linearize friction model 
