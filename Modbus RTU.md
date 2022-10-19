@@ -7,9 +7,9 @@ Transmit: Serial
 Decode: 8-bits
 Check digit: CRC16
 
-|Address|Function|Data                                      |CRC  |
-|---------|-----‐---|-----‐-------------------------|-----‐-|
-|8bits     |8bits      |nx8bits(n- length of fuction)|16bits|
+| Address   | Function  | Data                            | CRC     |
+| --------- | --------- | ------------------------------- | ------- |
+| 8bits     | 8bits     | nx8bits(n- length of fuction)   | 16bits  |
 
 *(1 byte = 8bits = 2hex digits)*
 
@@ -34,15 +34,16 @@ Check digit: CRC16
 
 ```
 ## Example
-Field name   hex
-------------------------------
-Slave Address           11 
-Function                    01 
-Starting Address Hi   00 
-Starting Address Lo  13 
-No. of Registers Hi    00 
-No. of Registers Lo   03
-Error Check               crc16
+| Field name                      | hex |
+| ------------------------------- | --- |
+| Slave Address               |   11  |
+| Function                      |  01   |
+| Starting Address Hi           |   00  |
+| Starting Address Lo           |  13   |
+| No. of Registers Hi           |  00   |
+| No. of Registers Lo             | 03  |
+| Error Check                |  crc16   |
+
 
 
 
