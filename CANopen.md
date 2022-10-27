@@ -1,5 +1,8 @@
  
 # CANopen Object Dictionary 
+Multi-byte parameters are based on little endian(LSB first).
+	*Little endian* (LSB first)
+	| Bit7 | Bit6 |Bit5 |Bit4 |Bit3 |Bit2 |Bit1 |Bit0 |
 | Index       | Object                                                                                                               |                                               
 | ----------- | -------------------------------------------------------------------------------------------------------------------- | 
 | 0000        | not used                                                                                                             |                                               
@@ -40,20 +43,17 @@ The SDO Command Specifier contains the following information:
 ♦ number of data bytes in this CAN-frame 
 ♦ alternating toggle bit for each subsequent segment
 
-| Func         | COB-ID          | SDO Command Specifier(Byte 0) | Object Index(Byte 1-2) | Object Subindex(Byte 3) |
-| ------------ | --------------- | ----------------------------- | ---------------------- | ----------------------- |
-| Receive SDO  | 0x580 + node id | Initiate domain download      |                        |                         |
-| Transmit SDO | 0x600 + node id | Initiate Domain Upload        |                        |                         |
-|              |                 |Download Domain Segment        |                        |                         |
-|              |                 |Upload Domain Segment          |                        |                         |
-|              |                 |Abort Domain Transfer          |                        |                         |
-### [PDO (Process Data Object) protocol](https://www.typhoon-hil.com/documentation/typhoon-hil-software-manual/References/canopen_protocol.html#canopen_protocol.dita__section_szj_wjt_g3b)
+| Func          | SDO Command Specifier(Byte 0) | Object Index(Byte 1-2) | Object Subindex(Byte 3) |
+| ---------------------- | ----------------------------- | ---------------------- | ----------------------- |
+| Receive SDO(0x580+node id) | Initiate domain download      |                        |                         |
+|Transmit SDO(0x600+node id )| Initiate Domain Upload        |                        |                         |
+              |                 |Download Domain Segment        |                        |                         |
+              |                 |Upload Domain Segment          |                        |                         |
+              |                 |Abort Domain Transfer          |                        |                         |
+### [PDO (Process Data Object) protocol, page 8](https://www.nikhef.nl/pub/departments/ct/po/doc/CANopen30.pdf)
 The CANopen **PDO service** is used for effectively sharing real-time operational data across CANopen nodes.
 Data transfer is limited to 1 to 8 bytes (for example: one PDO can transfer at maximum 64 digital I/O values, or 4 16-bit analogue inputs).
 
-Multi-byte parameters are based on little endian(LSB first).
-	*Little endian* (LSB first)
-	| Bit7 | Bit6 |Bit5 |Bit4 |Bit3 |Bit2 |Bit1 |Bit0 |
 
 ### [NMT (Network Management) protocol](https://www.typhoon-hil.com/documentation/typhoon-hil-software-manual/References/canopen_protocol.html#canopen_protocol.dita__section_yc4_yjt_g3b)
 Master-slave concept
