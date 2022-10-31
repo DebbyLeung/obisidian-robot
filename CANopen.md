@@ -31,6 +31,8 @@ The 11-bit CAN ID is referred to as the **COB-ID** and is split in two parts:
 
 ## CANOpen Communication interface
 ### [SDO (Service Data Object) protocol, page 11](https://www.nikhef.nl/pub/departments/ct/po/doc/CANopen30.pdf)
+	Mailbox-like
+
 The **SDO service** allows a CANopen node to read/edit values of another node's object dictionary over the CAN network.
 
 SDO request and reply message always contain 8 bytes.
@@ -51,10 +53,40 @@ The SDO Command Specifier contains the following information:
               |                 |Upload Domain Segment          |                        |                         |
               |                 |Abort Domain Transfer          |                        |                         |
 ### [PDO (Process Data Object) protocol, page 8](https://www.nikhef.nl/pub/departments/ct/po/doc/CANopen30.pdf)
+	i/o cyclic-like
 The CANopen **PDO service** is used for effectively sharing real-time operational data across CANopen nodes.
 Data transfer is limited to 1 to 8 bytes (for example: one PDO can transfer at maximum 64 digital I/O values, or 4 16-bit analogue inputs).
 
+RPDO(writing) mapping ( one cmd example )
+| func                       | d_arr                   | type |
+| -------------------------- | ----------------------- | ---- |
+| off pdo1 cob-id             | 23 00 14 01 01 02 00 80 | u32  |
+| set pdo transmit async     | 2F 00 14 02 ff - - -    | u8   |
+| number of mapped object =0 | 2F 00 16 00 00 - - -    | u8   |
+| pdo mapping                | 23 00 16 01 20 00 FF 60 | u32  |
+| number of mapped object =1 | 2F 00 16 00 01 - - -    | u8   |
+| set pdo cob-id             | 23 00 14 01 01 02 00 00 | u32  |
 
+
+| send pdo cob-id  | hex      |      
+| --------------- | -------- | 
+| identifier      | 23       |
+| function code   | 1400     | 
+| sub index       | 01       |
+| off/on pdo     | 80000201/00000201|
+
+| pdo mapping     | hex           |
+| --------------- | ------------- |
+| identifier      | 23            |
+| function code   | 1600          |
+| sub index       | 01            |
+| no. of bit      | 20$_h$/32$_d$ |
+| subindex of obj | 00            |
+| index of obj    | 60ff          |
+
+To activate, cob-id 201, d_arr(32int) = i.e.,[00 00 14 00] velocity of 0x60ff
+
+TPDO(reading)
 ### [NMT (Network Management) protocol](https://www.typhoon-hil.com/documentation/typhoon-hil-software-manual/References/canopen_protocol.html#canopen_protocol.dita__section_yc4_yjt_g3b)
 Master-slave concept
 ### [Special function protocols](https://www.typhoon-hil.com/documentation/typhoon-hil-software-manual/References/canopen_protocol.html#canopen_protocol.dita__section_yt3_zjt_g3b)
