@@ -29,7 +29,7 @@ ___
 ### Trapezoidal velocity profile
 Duration of curve $t_f$ is calculated with displacement between start and goal, bounded by $v_{max}$ and $a_{max}$.
 For 2 segments scenario, 
-	$(\frac{{\theta}_g -{\theta}_s)}{2}=\frac{1}{2} a_{max}(t_f/2)^2 \to t_f=2\sqrt{(θg−θs)/a_{max}}$ (eq. 1)
+	$(\frac{{\theta}_g -{\theta}_s)}{2}=\frac{1}{2} a_{max}(t_f/2)^2 \to t_f=2\sqrt{(θ_g−θ_s)/a_{max}}$ (eq. 1)
 When midpoint velocity $a_{max}t_f/2 >v_{max}$, we need to divide into 3 segments ,	
 	In $[t_0, t_3]$, since acceleration time is equal to deceleration time, $t_1 = t_3$ and $t_1=v_{max}/a_{max}$, then ${\theta}_1-{\theta}_s =v_{max}^2/(2a_{max})$, so $t_2=(θg−θs)/v_{max}-v_{max}/a_{max}$
 	$t_f=2t_1+t_2=(θg−θs)/v_{max}+v_{max}/a_{max}$       (eq. 2)

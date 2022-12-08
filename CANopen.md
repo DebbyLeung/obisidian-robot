@@ -47,10 +47,10 @@ The SDO Command Specifier contains the following information:
 
 | Func          | SDO Command Specifier(Byte 0) | Object Index(Byte 1-2) | Object Subindex(Byte 3) |
 | ---------------------- | ----------------------------- | ---------------------- | ----------------------- |
-| Receive SDO(0x580+node id) | Initiate domain download      |                        |                         |
-|Transmit SDO(0x600+node id )| Initiate Domain Upload        |                        |                         |
-              |                 |Download Domain Segment        |                        |                         |
-              |                 |Upload Domain Segment          |                        |                         |
+| Receive SDO(0x580+node id) | Initiate domain download      | writing 2                       |                         |
+|Transmit SDO(0x600+node id )| Initiate Domain Upload        |  reading 4                      |                         |
+              |                 |Download Domain Segment        |     writing 2                  |                         |
+              |                 |Upload Domain Segment          |reading 4                       |                         |
               |                 |Abort Domain Transfer          |                        |                         |
 ### [PDO (Process Data Object) protocol, page 8](https://www.nikhef.nl/pub/departments/ct/po/doc/CANopen30.pdf)
 	i/o cyclic-like
