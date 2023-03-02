@@ -1,3 +1,4 @@
+cpp is a c-based language.
 ## Data type
 | Specifier    | Common     |  Bits | Bytes | Minimum Value | Maximum Value |
 | ---------------------------------------------------------------------- | ------------------------------------------------------------------------- | ---------- | ------- | ---- | ----- | ------------- | ------------- |
@@ -88,3 +89,4 @@ for (int i = 0; i < 8; i++) {
 # Links
 [C中int8_t, int16_t, int32_t, int64_t, uint8_t, size_t, ssize_t區别](https://blog.csdn.net/yz930618/article/details/84785970)
 [Pointer to an Array | Array Pointer](https://www.geeksforgeeks.org/pointer-array-array-pointer/)
+#codingLanguage #cpp 

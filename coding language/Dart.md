@@ -13,3 +13,4 @@ main(valueInCarmel){
 ```
 LowerCarmel for methods and non constant identfier
 class starts with capital letter
+#codingLanguage

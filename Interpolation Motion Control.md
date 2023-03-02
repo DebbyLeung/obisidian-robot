@@ -1,4 +1,4 @@
-# Trajectory following
+y# Trajectory following
 
 *We want a desired joint space trajectory $qD(t)$ approch to the robot's actual trajectory $q(t)$*
 ### Rules

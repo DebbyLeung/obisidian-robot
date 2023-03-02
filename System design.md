@@ -1,0 +1,6 @@
+1. Design requirement
+2. Behavioural Modelling
+3. Structural Modelling
+4. Prototype
+# Links
+[Integrated_Design_Methodology_of_Automated_Guided_Vehicles_Based_on_Swarm_Robotics](https://www.researchgate.net/publication/352934740_Integrated_Design_Methodology_of_Automated_Guided_Vehicles_Based_on_Swarm_Robotics)

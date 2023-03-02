@@ -1,0 +1,182 @@
+{
+  "main": {
+    "id": "08a99405a424b7d3",
+    "type": "split",
+    "children": [
+      {
+        "id": "62047db15effdf56",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b38f655f72a27609",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AGV/4 wheel steering.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d3292799a1bf13b1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AGV/2 wheel steering.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "63cda24710373841",
+    "type": "split",
+    "children": [
+      {
+        "id": "247a64038a98af7e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "70c56ec9f3f9cdde",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f2a4b93e23e5b7be",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "177173935e7f7c82",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "625fb2479d6e1c27",
+    "type": "split",
+    "children": [
+      {
+        "id": "8f01bc841ac5d102",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "df5c80de8abccff8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "AGV/2 wheel steering.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "fce583dfc0c19ea1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "AGV/2 wheel steering.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9ab16628035def1e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "85fcc6d1cc6cbfab",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "AGV/2 wheel steering.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "d3292799a1bf13b1",
+  "lastOpenFiles": [
+    "AGV/4 wheel steering.md",
+    "AGV/2 wheel steering.md",
+    "System design.md",
+    "Jacobian matrix.md",
+    "AGV/PID control.md",
+    "Untitled 1",
+    "ros",
+    "coding language/vcpkg.md",
+    "Modbus RTU.md",
+    "AGV/Navigation.md",
+    "ros/ROS2.md",
+    "Interpolation Motion Control.md",
+    "ros/Webots.md",
+    "AGV/Control System.md",
+    "Motor Driver.md",
+    "Force control/Feed forward torque control.md",
+    "Force control/Impedance control.md"
+  ]
+}
