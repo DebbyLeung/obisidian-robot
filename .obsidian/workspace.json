@@ -4,28 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "62047db15effdf56",
+        "id": "50e8b8522973dd5e",
         "type": "tabs",
         "children": [
           {
-            "id": "b38f655f72a27609",
+            "id": "6371b8bb96b63927",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AGV/4 wheel steering.md",
+                "file": "AGV/PID control.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "d3292799a1bf13b1",
+            "id": "4ddaf53ce5b71ef1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AGV/2 wheel steering.md",
+                "file": "AGV/Localization.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AGV/2 wheel steering.md",
+                "file": "AGV/Localization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AGV/2 wheel steering.md",
+                "file": "AGV/Localization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AGV/2 wheel steering.md"
+                "file": "AGV/Localization.md"
               }
             }
           }
@@ -159,18 +159,29 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d3292799a1bf13b1",
+  "active": "4ddaf53ce5b71ef1",
   "lastOpenFiles": [
+    "AGV/PID control.md",
+    "AGV/Localization.md",
+    "Untitled.canvas",
+    "Markdown.md",
+    "coding language/vcpkg.md",
+    "coding language/C++.md",
+    "PLC/opcua-asyncio.md",
+    "Jacobian matrix.md",
+    "AGV/Navigation.md",
+    "coding language/Anaconda.md",
+    "coding language/Python.md",
+    "coding language/Dart.md",
+    "coding language/Logging.md",
+    "PLC/Snap7 Client.md",
+    "PLC",
     "AGV/4 wheel steering.md",
     "AGV/2 wheel steering.md",
     "System design.md",
-    "Jacobian matrix.md",
-    "AGV/PID control.md",
     "Untitled 1",
     "ros",
-    "coding language/vcpkg.md",
     "Modbus RTU.md",
-    "AGV/Navigation.md",
     "ros/ROS2.md",
     "Interpolation Motion Control.md",
     "ros/Webots.md",

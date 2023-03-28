@@ -12,5 +12,8 @@ d-wheelbase
 
 ### LiDAR
 
+## Nav2
+map server
 # Links
 [Automatic Guided Vehicles System and Its Coordination Control for Containers Terminal Logistics Application](https://arxiv.org/ftp/arxiv/papers/2104/2104.08331.pdf)
+[ROS2 Nav2 - Navigation Stack in 1 Hour](https://www.youtube.com/watch?v=idQb2pB-h2Q)

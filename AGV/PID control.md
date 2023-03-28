@@ -12,6 +12,6 @@ D-improve damping, increase resistance to external disturbance
 ### In digital form
 differtial term of $K_d = K_d\frac{e(t)-e(t-1)}{\Delta t}$
 integral term of $K_i = K_i\sum_{t=0}^n{e(n-t)}{\Delta t}$
-
-
+#PI
+# Links
 [PID controller](http://www.ee.ic.ac.uk/pcheung/teaching/de2_ee/Lecture%2018%20-%20PID%20controller%20%28x2%29.pdf)
