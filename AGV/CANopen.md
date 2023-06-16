@@ -3,11 +3,12 @@
 Multi-byte parameters are based on little endian(LSB first).
 	*Little endian* (LSB first)
 	| Bit7 | Bit6 |Bit5 |Bit4 |Bit3 |Bit2 |Bit1 |Bit0 |
-| Index       | Object                                                                                                               |                                               
-| ----------- | -------------------------------------------------------------------------------------------------------------------- | 
-| 0000        | not used                                                                                                             |                                               
-| 0001 - 001F | Static Data Types (standard data types, e.g. Boolean, Integer16)                                                  |                                                
-| 0020 - 003F | Complex Data Types (predefined structures composed of standard data types, e.g. PDOCommPar,     SDOParameter)                                                    |
+	
+| Index | Object  |             
+| ----------- | ------------ |
+| 0000        | not used    |   
+| 0001 - 001F | Static Data Types (standard data types, e.g. Boolean, Integer16) |                                                
+| 0020 - 003F | Complex Data Types (predefined structures composed of standard data types, e.g. PDOCommPar,     SDOParameter)     |                
 | 0040 - 005F | Manufacturer Specific Complex Data Types                                                                               |
 | 0060 - 007F | Device Profile Specific Static Data Types                                                                               |
 | 0080 - 009F | Device Profile Specific Complex Data Types                                                                              |
@@ -66,7 +67,7 @@ RPDO(writing) mapping ( one cmd example )
 | pdo mapping                | 23 00 16 01 20 00 FF 60 | u32  |
 | number of mapped object =1 | 2F 00 16 00 01 - - -    | u8   |
 | set pdo cob-id             | 23 00 14 01 01 02 00 00 | u32  |
-
+u16 == 2b
 
 | send pdo cob-id  | hex      |      
 | --------------- | -------- | 
