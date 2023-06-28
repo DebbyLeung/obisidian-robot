@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "84e2017487bd5a38",
+            "id": "e20d3ad9dbe50d9d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AGV/CANopen.md",
+                "file": "coding language/Virtual env.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "venv",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,7 +73,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -93,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AGV/CANopen.md",
+                "file": "coding language/Virtual env.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AGV/CANopen.md",
+                "file": "coding language/Virtual env.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AGV/CANopen.md"
+                "file": "coding language/Virtual env.md"
               }
             }
           }
@@ -154,28 +155,31 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "84e2017487bd5a38",
+  "active": "e20d3ad9dbe50d9d",
   "lastOpenFiles": [
-    "AGV/CANopen.md",
-    "AGV/Localization.md",
-    "Force control/Explicit Force Control.md",
-    "Force control/Feed forward torque control.md",
-    "Force control/Admittance control.md",
-    "Force control/Impedance control.md",
-    "Motor Driver.md",
+    "SEER-RDS.md",
     "AGV/Control System.md",
+    "AGV/CANopen.md",
+    "AGV/Navigation.md",
+    "AGV/Localization.md",
+    "Jacobian matrix.md",
     "AGV/4 wheel steering.md",
     "AGV/2 wheel steering.md",
-    "RTOS.md",
+    "Force control/Impedance control.md",
+    "Force control/Admittance control.md",
+    "Force control/Explicit Force Control.md",
+    "Force control/Feed forward torque control.md",
     "AGV.md",
+    "coding language/Git.md",
+    "Untitled",
+    "Motor Driver.md",
+    "RTOS.md",
     "System design.md",
-    "AGV/Navigation.md",
-    "coding language/Anaconda.md",
+    "coding language/Virtual env.md",
     "PLC/Snap7 Client.md",
     "PLC/opcua-asyncio.md",
     "PLC",
     "AGV/PID control.md",
-    "Jacobian matrix.md",
     "Untitled 1",
     "ros",
     "coding language/vcpkg.md",
