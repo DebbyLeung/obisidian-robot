@@ -8,7 +8,7 @@ sensors reading -> computer position reading
 
 ## Function
 + calibration 
-+ [[PID control]], filtering
++ [[PID controller]], filtering
 + velocity limiting
 + temperature regulation
 + joint trajectory interpolation

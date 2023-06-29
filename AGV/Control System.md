@@ -1,6 +1,6 @@
 ## Motor controller
 Ref data of vehicle control are motor speed and position target.
-Details in [[PID control]]
+Details in [[PID controller]]
 
 ## Communication
 supervise
@@ -11,9 +11,9 @@ supervise
 
 ## AMR components
 - External data transmission
-	- OS/RTOS
+	- OS/[[RTOS]]
 - Internal data transmission
-	- Containers: ROS/ROS2
+	- Containers: [[ROS]]/ROS2
 	- AI interface
 	- Other
 

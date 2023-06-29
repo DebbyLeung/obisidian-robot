@@ -1,4 +1,4 @@
-## python controller
+## [[VScode]] controller
 ```python
 """fws_controller controller."""
 

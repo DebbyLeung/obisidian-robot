@@ -1,7 +1,7 @@
 ## Position loop control
 ![](https://ars.els-cdn.com/content/image/3-s2.0-B9780123859204000035-f03-22-9780123859204.jpg)
-### PID controller
-independent control of position, velocty, and current.
+### PID control
+independent control of position, velocity, and current.
 $u=K_p\epsilon+K_i\int\epsilon dt+K_d\dot{\epsilon}$
 where $\epsilon(t)=y(t)-r(t)$, y(t) is output and r(t) as command.
 

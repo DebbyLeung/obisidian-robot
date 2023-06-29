@@ -1,12 +1,13 @@
-v# Introduction
+# Introduction
 + Modbus ASCII
 + Modbus RTU
 + Modbus TCP
 # Modbus RTU
+
 Transmit: Serial
 Decode: 8-bits
 Check digit: CRC16
-
+[[Byte conversion]] table
 | Address   | Function  | Data                            | CRC     |
 | --------- | --------- | ------------------------------- | ------- |
 | 8bits     | 8bits     | nx8bits(n- length of fuction)   | 16bits  |

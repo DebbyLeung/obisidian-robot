@@ -18,7 +18,7 @@ $x_s = K_p(f_d-f_e)-K_d(\dot{f_e})$
 
 $K_p = -\frac{(1+FC)}{SYS},K_d(\frac{d}{dt}) = -\frac{FE}{SYS}$
 
-## Impedance
+## [[Impedance control]]
 $x_s$ - actual position of gripper
 $x$ - actual position of env
 $x_d$ - desired position of env

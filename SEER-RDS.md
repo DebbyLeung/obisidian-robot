@@ -35,7 +35,7 @@ Request for free navigation with in the avoiding region. and mutex that region.
 #### Mutex
 Only one point at a time can be reserved in the mutex region.
 
-# AGV selection logic
+# [[AGV]] selection logic
 ```python
 class Car:
 	self.label =label

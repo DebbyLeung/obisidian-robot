@@ -14,9 +14,9 @@ Gyro drift - error accumulate at steady state
 
 # Complementary filter
 Acc term $\cdot\alpha$+Gyro term integral $\cdot(1-\alpha)$+ error = output
-& feedback error to integral #PID
+& feedback error to integral [[PID controller]]
 
-Gyro has a better estimation on realtime data, so mainly use GYro Acc as an assistant
+Gyro has a better estimation on realtime data, so mainly use Gyro Acc as an assistant
 
 ## State observer
 $X_{u+1} = IX_u+scalar.T\cdot IU+scalar.\alpha\cdot (X_u-X_est)$
