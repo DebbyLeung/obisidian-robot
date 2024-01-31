@@ -1,3 +1,4 @@
+Base element in an [[AGV]]
 ### Fixed trajectory navigation
 ### Free ranging navigation
 geometric guidance and feedback odometry output as vehicle control (displacement ...), then to motor control
